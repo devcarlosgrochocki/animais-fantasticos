@@ -7,6 +7,7 @@ import initDropdownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import FetchAnimais from './modules/fetch-animais.js';
+import FetchBitcoin from './modules/fetch-bitcoin.js';
 import initAnimacaoScroll from './modules/scroll-animacao.js';
 
 const scrollSuave = new ScrollSuave('[data-anime="menu"] a[href^="#"]');
@@ -38,3 +39,5 @@ initAnimacaoScroll();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
+
+FetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
