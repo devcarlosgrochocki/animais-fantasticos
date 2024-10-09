@@ -34,4 +34,3 @@ initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
 initFecchAnimais();
-
