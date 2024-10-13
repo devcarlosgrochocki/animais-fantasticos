@@ -5,6 +5,8 @@ O projeto **Animais Fantásticos** é um site interativo que apresenta informaç
 
 Este site foi pensado para ser visualmente agradável, com interações dinâmicas que melhoram a experiência do usuário. Além disso, é um ótimo exemplo de como podemos integrar dados externos (como um arquivo JSON) para criar uma experiência rica e interativa.
 
+Você pode acessar o site online [clicando aqui](https://devcarlosgrochocki.github.io/animais-fantasticos).
+
 ## Funcionalidades
 
 - **Listagem de Animais Fantásticos**: Uma lista com diversos animais, cada um com suas características e uma imagem.
