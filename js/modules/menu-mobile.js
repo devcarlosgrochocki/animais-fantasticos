@@ -23,7 +23,6 @@ export default class initMenuMobile {
   }
 
   init() {
-    console.log(this.menuButton);
     if (this.menuButton) {
       this.eventos.forEach((evento) => {
         this.menuButton.addEventListener(evento, this.openMenu);

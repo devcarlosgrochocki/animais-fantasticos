@@ -14,6 +14,7 @@ dl {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -83,7 +84,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  color: #e54;
+  color: #AF1B13;
 }
 
 .animais h2::before {
