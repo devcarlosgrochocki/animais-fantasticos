@@ -21,7 +21,9 @@
   border: 10px solid #fb5;
   box-shadow: 0 0 0 10px white;
   position: relative;
-  min-width: 300px;
+  width: 80vw;
+  max-width: 600%;
+  box-sizing: border-box;
 }
 
 @keyframes modal {
@@ -46,13 +48,10 @@
   width: 50px;
   height: 50px;
   border: 4px solid white;
-  background-color: #e54;
+  background: #e54 url("../img/fechar.svg") no-repeat center center;
   border-radius: 50%;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  font-size: 1.2em;
-  color: white;
-  font-family: "IBM Plex Mono";
 }
 
 .modal label {
